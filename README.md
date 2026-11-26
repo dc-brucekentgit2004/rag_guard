@@ -1,2 +1,8 @@
-# rag_guard
-RAG Guard is a plug-in fact-checker for AI chatbots that checks every sentence of an AI answer against the source documents and blocks or corrects made-up information before it reaches the user.
+# pytest cache directory #
+
+This directory contains data from the pytest's cache plugin,
+which provides the `--lf` and `--ff` options, as well as the `cache` fixture.
+
+**Do not** commit this to version control.
+
+See [the docs](https://docs.pytest.org/en/stable/how-to/cache.html) for more information.

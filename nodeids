@@ -1,0 +1,5 @@
+[
+  "tests/test_guardrail.py::test_decisions",
+  "tests/test_guardrail.py::test_nli_picks_best_chunk",
+  "tests/test_guardrail.py::test_split_keeps_offsets"
+]

@@ -1,0 +1,24 @@
+# Core ML
+torch>=2.1
+transformers>=4.41
+sentencepiece        # needed by the DeBERTa-v3 tokenizer
+protobuf
+accelerate
+
+# LLM access (any OpenAI-compatible API: Groq, OpenAI, Ollama, vLLM, LM Studio)
+openai>=1.30
+python-dotenv
+
+# API + demo
+fastapi>=0.110
+uvicorn[standard]
+httpx
+pydantic>=2
+streamlit>=1.35
+
+# Evaluation
+scikit-learn
+pandas
+numpy
+tqdm
+pytest
